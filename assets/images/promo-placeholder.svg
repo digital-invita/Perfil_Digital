@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061124"/>
+      <stop offset="0.62" stop-color="#111c2c"/>
+      <stop offset="1" stop-color="#3a4048"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="72%" cy="50%" r="44%">
+      <stop offset="0" stop-color="#0b72ff" stop-opacity="0.9"/>
+      <stop offset="0.48" stop-color="#005dff" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#005dff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="420" rx="24" fill="url(#bg)"/>
+  <rect width="800" height="420" rx="24" fill="url(#glow)"/>
+  <g fill="none" stroke="#2f8dff" stroke-linecap="round" opacity="0.86">
+    <path d="M470 210h132" stroke-width="24"/>
+    <circle cx="470" cy="210" r="42" stroke-width="24"/>
+    <circle cx="602" cy="210" r="42" stroke-width="24"/>
+    <path d="M660 145c-48-55-142-58-194-4m194 134c-48 55-142 58-194 4" stroke-width="28"/>
+  </g>
+  <path d="M66 92h266v19H66zm0 54h218v15H66zm0 38h176v15H66z" fill="#f7fbff"/>
+  <rect x="66" y="248" width="152" height="42" rx="12" fill="#006bff"/>
+  <text x="142" y="275" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="800" text-anchor="middle">PROMOCION</text>
+</svg>
